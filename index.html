@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main" id="main">
+      <h1>REGISTER</h1>
+      <input type="text" id="first" class="input" placeholder="First Name..." />
+      <p id="eror">შეიყვანეთ სახელი</p>
+      <input type="text" id="last" class="input2" placeholder="Last Name..." />
+      <p id="eror2">შეიყვანეთ გვარი</p>
+      <input
+        type="password"
+        id="password"
+        class="input3"
+        placeholder="Password..."
+      />
+      <p id="eror3">შეიყვანეთ პაროლი</p>
+      <button class="btn" onclick="submit()">Register</button>
+    </div>
+    <div class="logginIn" id="div">
+      <h1 id="logout"></h1>
+      <button class="btn" onclick="logout()">Log Out</button>
+    </div>
+    <div class="log" id="logindiv">
+      <h1>Login In</h1>
+      <p id="loginp">სახელი ან პაროლი არასწორია</p>
+      <input type="text" id="login" class="login" placeholder="First Name..." />
+      <input
+        type="password"
+        id="logpwd"
+        class="logpwd"
+        placeholder="Password..."
+      />
+      <button class="btn" onclick="login()">Login In</button>
+      <button class="btn" onclick="back()">Register</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

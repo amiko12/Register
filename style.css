@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #377dff;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: green;
+  padding-top: 190px;
+  align-items: center;
+}
+.input,
+.input2,
+.input3,
+.login,
+.logpwd {
+  width: 200px;
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.input,
+.input2,
+.input3,
+.login,
+.logpwd:focus {
+  outline: none;
+}
+.btn {
+  margin-top: 20px;
+
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: #377dff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+#eror,
+#eror2,
+#eror3 {
+  color: red;
+  font-size: 17px;
+  display: none;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: green;
+  padding-top: 190px;
+  align-items: center;
+  display: none;
+}
+.logginIn {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: green;
+  padding-top: 190px;
+  align-items: center;
+  display: none;
+}
+#loginp {
+  color: red;
+  font-size: 17px;
+  display: none;
+}
