@@ -67,6 +67,7 @@ function login() {
       ).innerText = ` ${array[i].first1} ${array[i].last1} კეთილი იყოს თქვენი მობრძანება`;
       login.value = "";
       logpwd.value = "";
+      document.getElementById("logindiv").style.display = "none";
     } else {
       document.getElementById("loginp").style.display = "block";
       login.addEventListener("input", () => {
